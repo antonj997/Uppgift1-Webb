@@ -1,0 +1,657 @@
+/*stylesheet*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #252429;
+    flex-direction: column;
+}
+
+header{
+    background-color: #333138;
+}
+
+.headercontent{
+    display: flex;
+    text-align: left;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sitecontent{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    height: fit-content;
+    
+}
+
+.logo{
+    display: flex;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.logotext{
+    display: flex;
+    text-align: left;
+    font-family:"poppins", sans-serif;
+}
+
+.identity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    color:#B5B2BC;  
+}
+
+.searchbar{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width:100%;
+    
+} 
+
+.bar-style{
+    display: flex;
+    align-items: center;
+    background-color: #252429;
+    padding: 5 10 5 10;
+    border-radius: 6px;
+    border: none;
+    width: fit-content;
+}
+
+.search{
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #252429;
+    color: #FFFFFA;
+    border: none;
+    outline: none;
+    margin-right: 20rem;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-self: flex-end;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #FFFFFA;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color:#FF312E;
+}
+
+
+
+h2{
+    vertical-align: middle;
+    color: #FFFFFA;
+    font-size: 400%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+    
+    text-align: left;
+}
+
+.featurebanner{
+    height: 100%;
+    background-color: #FF312E;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    width: fit-content;
+}
+
+.banner-image{
+    height:70%;
+    display: flex;
+    background-image: url(Images/morbiusHD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: right;
+    width: 100%;
+    border-bottom: 2px solid #5E5A67;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.t1{
+    font-size: 300%;
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+.t2{
+    display: flex;
+    margin-top: 30px; 
+    font-size: 550%;
+    color: #560100;
+}
+
+.score1{
+    padding: 5;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    border: 2px solid #560100;
+    border-radius: 4px;
+    background-color: #588157;
+    height: fit-content;
+    width: fit-content;
+}
+
+/*middle section*/
+.image{
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #333533
+
+}
+
+.image:hover{
+    opacity: 0.3;
+    border: 2px solid #FF312E;
+    
+}
+
+.content-wrapper{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.content-wrapper h1{
+    color: #FFFFFA;
+    font-size: 35px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: fit-content;
+    text-align: center;
+    background-color: #252429;
+    
+    
+    padding-top: 50px;
+}
+
+
+.vertical{
+    margin-bottom: 30px; 
+    width: 18%;
+    height: 600px;
+    background-color: #333533;
+}
+
+.flex-item h3, h4, p{
+    padding: 10px;
+}
+
+
+
+.content{   
+    display: flex; 
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.titlecore{
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 800px;
+    background-color: #333533;
+    flex: 1;
+}
+
+
+
+h4{
+    color: #FFFFFA;
+}
+
+.score{
+    
+    background-color: #588157;
+    border-radius: 3px;
+    margin-left: 40%;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+}
+
+.score2{
+    
+    margin: 5px;
+    text-align: center;
+    font-size: xx-large;
+    
+    border: 2px solid #1A191D;
+    border-radius: 4px;
+    background-color: #588157;
+    height: fit-content; 
+    width: fit-content;
+}
+
+.poster1{
+    background-image: url(Images/blackAdam2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+.poster2{
+    background-image: url(Images/skyScraper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+.poster3{
+    background-image: url(Images/jungleCruise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+.poster4{
+    background-image: url(Images/jumanji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+.poster5{
+    background-image: url(Images/welcomeTJungle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+
+.poster:hover{
+    opacity: 0.3;
+    border: 2px solid #FF312E;
+}
+
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+section{
+    margin: 50px 30px 0 30px;
+}
+
+.grid-item{
+    
+    background-color: #333533;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    width: 18%;
+    height: fit-content;
+}
+
+
+
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 2rem;
+}
+
+.card-header{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFA;
+    margin-bottom: 1rem;
+}
+
+.card-text{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #B5B2BC;
+    margin-bottom: 2.5rem;
+    height: min-content;
+}
+
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFA;
+    background-color: #FF312E;
+    border: none;
+    border-radius: 0.4rem;
+    transition: o.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.card-btn:hover,
+.card-btn:active{
+    background-color: #810200;
+}
+
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+
+}
+
+.card-btn:hover span,
+.card-btn:active span{
+    margin-left: 1.5rem;
+}
+
+
+/*bottom section*/
+
+footer{
+    text-align: center;
+    margin-top: 50%;
+    background-color: #1A191D;
+    color: #FFFFFA;
+}
+
+/*laptop*/
+
+@media all and (max-width: 1400px){
+
+    
+
+    nav{
+        flex-direction: column;
+    }
+  .navigation {
+    width: 100%;
+    justify-content: space-around;
+    }   
+
+    
+
+    .sitecontent{
+        flex-direction: column;
+
+        padding: 0;
+    }
+
+    .grid-item{
+    
+        width: 24%;
+    }
+
+    .vertical{
+        flex-direction: column;
+        flex: 30%;
+        max-width: 30%;
+        height: 600px;
+        margin: 5px;
+        margin-top: 20px;
+    }
+
+    .flex-item{
+        flex-direction: column;
+
+    }
+
+    .image{
+        max-width: 35%;
+        height: auto;
+    }
+
+    .mainlogo{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .featurebanner{
+        background-color: #FF312E;
+        width: 60%;
+        padding-right: 0px;
+        height: 100%;
+        
+    }
+    .score1{
+        align-self: center;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    
+
+    .t2{
+        padding-top: 10px;
+        font-size: 80px;
+    }
+
+
+}
+
+/*ipad*/
+@media all and (max-width: 1024px){
+
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .navigation, nav{
+        flex-direction: column;
+    
+    }
+    
+    .navigation a{
+        
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1.5px solid #333533;
+    }
+
+    nav{
+        flex-direction: column;
+        align-self: center;
+    }  
+
+    .grid-item{
+    
+        width: 45%;
+    }
+
+    .sitecontent{
+        flex-direction: column;
+
+        padding: 0;
+    }
+
+    .vertical{
+        flex-direction: column;
+        flex: 50%;
+        max-width: 45%;
+        height: 600px;
+        margin: 5px;
+        margin-top: 20px;
+    }
+
+    .flex-item{
+        flex-direction: column;
+
+    }
+
+    .image{
+        max-width: 31%;
+        height: auto;
+    }
+
+    .mainlogo{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .featurebanner{
+        
+        background-color: #FF312E;
+        width: 60%;
+        padding-right: 0px;
+    }
+    
+
+
+    .t2{
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+
+}
+
+/*iphone*/
+@media all and (max-width: 640px){
+
+
+
+.featurebanner{
+    flex-wrap: wrap;
+}
+
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navigation, nav{
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.navigation a{
+    
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1.5px solid #333533;
+}
+
+.grid-item{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.vertical{
+    flex-direction: column;
+    flex: 100%;
+    max-width: 100%;
+    height: 600px;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+header p{
+    font-size: 18px;
+}
+.navlogo{
+    margin: 0, 20px;
+}
+
+
+
+.featurebanner{
+    align-self: flex-end;
+    height: 50%;
+    background-color: #FF312E;
+    width: 100%;
+}
+
+.banner-image{
+    height:50%;
+    width: 100%;
+    
+}
+
+.t2{
+    font-size: 50px;
+}
+
+}
